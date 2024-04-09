@@ -1,0 +1,198 @@
+$color-sunday: #ff5733;
+$color-monday: #ff69b4;
+$color-tuesday: #ffc300;
+$color-wednesday: #c0c0c0;
+$color-thursday: #00ced1;
+$color-friday: #00ff7f;
+$color-saturday: #ee82ee;
+
+.meal-plan {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+
+  &__heading {
+    display: flex;
+    align-items: center;
+
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    transition: all 0.5s;
+
+    &__icon {
+      width: 5rem;
+      height: 5rem;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: x-large;
+      font-family: cursive;
+      color: white;
+      margin: 0 1rem;
+    }
+  }
+
+  &-window {
+    display: flex;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 140rem;
+
+    z-index: 1000;
+    transition: all 0.5s;
+    box-sizing: border-box;
+
+    &-week {
+      width: 14%;
+      height: 60rem;
+      border-radius: 9px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      transition: all 0.3s;
+
+      &:hover {
+        transform: scale(1.05);
+
+        // .meal-plan-window__heading {
+        //   transform: scale(1.05);
+        // }
+      }
+    }
+
+    &__heading {
+      font-weight: 700;
+      font-size: x-large;
+      font-family: cursive;
+      color: white;
+      width: 100%;
+      margin-bottom: 1rem;
+      margin-top: -2px;
+      //   transition: all 0.3s;
+    }
+
+    .sunday {
+      border: 8px solid $color-sunday;
+      h4 {
+        background-color: $color-sunday;
+      }
+    }
+    .monday {
+      border: 8px solid $color-monday;
+
+      h4 {
+        background-color: $color-monday;
+      }
+    }
+    .tuesday {
+      border: 8px solid $color-tuesday;
+
+      h4 {
+        background-color: $color-tuesday;
+      }
+    }
+
+    .wednesday {
+      border: 8px solid $color-wednesday;
+
+      h4 {
+        background-color: $color-wednesday;
+      }
+    }
+
+    .thursday {
+      border: 8px solid $color-thursday;
+
+      h4 {
+        background-color: $color-thursday;
+      }
+    }
+
+    .friday {
+      border: 8px solid $color-friday;
+
+      h4 {
+        background-color: $color-friday;
+      }
+    }
+    .saturday {
+      border: 8px solid $color-saturday;
+
+      h4 {
+        background-color: $color-saturday;
+      }
+    }
+
+    ul {
+      height: inherit;
+      width: 18rem;
+      overflow-y: auto;
+    }
+
+    .preview-meal-plan {
+      list-style: none;
+      margin: 0 1rem;
+      border-bottom: 1px solid white;
+      padding: 1.5rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+
+      &__link {
+        &:link,
+        &:visited {
+          text-decoration: none;
+          color: white;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+        &:active {
+          text-decoration: underline;
+          color: black;
+        }
+      }
+
+      &__title {
+        font-size: 1.5rem;
+      }
+
+      &:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .btn--delete-meal {
+        cursor: pointer;
+        border: none;
+        width: 2.4rem;
+        height: 2.4rem;
+
+        &:hover {
+          fill: red;
+        }
+      }
+    }
+
+    .error {
+      color: white;
+    }
+
+    .message {
+      color: white;
+    }
+  }
+}
