@@ -2,13 +2,13 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "default": "index.html",
+  "main": "index.html",
   "targets": {
     "main": false
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url ./"
   },
   "author": "Ericsson Raphael",
   "license": "ISC",
