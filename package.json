@@ -5,7 +5,7 @@
   "source": "dist/index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build  --public-url ./ index.html --dist-dir build"
+    "build": "parcel build  --public-url ./ index.html --dist-dir dist"
   },
   "author": "Ericsson Raphael",
   "license": "ISC",
