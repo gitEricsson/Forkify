@@ -46,7 +46,7 @@ My goal was to recreate Jonas' Forkify WebApp from scratch and make some updates
 - Improve recipe ingredient input: separate in multiple fields and allow more than 6 ingredients
 - Shopping list feature: button on recipe to add ingredients to a list
 - Weekly meal planning feature: assign recipes to the next 7 days and show on a weekly calendar
-- Get nutrition data on each ingredient from [Nutritionix API](http://www.nutritionix.com/api) and calculate total calories of recipe
+- Get nutrition data on each ingredient from [Nutritionix API](https://www.nutritionix.com/business/api) and calculate total calories of recipe
 
 ### Links
 
