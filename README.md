@@ -21,7 +21,7 @@ Forkify is a recipe web app that lets users search, read, edit, bookmark, and up
 
 ### The Challenge
 
-My goal was to recreate Jonas' Forkify WebApp from scratch and make some updates to it. It was especially taxing having to produce the HTML, SASS and JS code for the update, which in turn meant having to brainstorm the business, application and presentation logic of it's architecture; but it was altogether Insightful.
+My goal was to recreate Jonas' Forkify WebApp from scratch and make some updates to it. It was especially taxing having to produce the HTML, SASS and JS code for the update, which in turn meant having to brainstorm the business, application and presentation logic of it's architecture. Nonetheless, it was altogether Insightful.
 
 ### Features
 
