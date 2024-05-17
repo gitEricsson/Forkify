@@ -2,16 +2,16 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "source": "dist/index.html",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build  --public-url ./ index.html --dist-dir dist"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Ericsson Raphael",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0",
-    "parcel": "^2.7.0",
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.0.0-beta.1",
     "sass": "^1.54.3"
   },
   "dependencies": {
