@@ -39,8 +39,8 @@ My goal was to recreate Jonas' Forkify WebApp from scratch and make some updates
 
 ### Updates
 
-- Responsive Web design across all devices
-- Display number of pages between the pagination buttons
+- Responsive Web Design across all Devices
+- Display number of Pages between the Pagination buttons
 - Ability to sort search results by duration or number of ingredients
 - Perform ingredient validation in view, before submitting the form
 - Improve recipe ingredient input: separate in multiple fields and allow more than 6 ingredients
@@ -50,7 +50,7 @@ My goal was to recreate Jonas' Forkify WebApp from scratch and make some updates
 
 ### Links
 
-- Solution URL: [Github Repo here](https://github.com/gitEricsson/Forkify)
+- Code URL: [Github Repo here](https://github.com/gitEricsson/Forkify)
 - Live Site URL: [Live site here](https://ericsson-forkify.netlify.app/)
 
 ## My process
