@@ -50,8 +50,8 @@ My goal was to recreate Jonas' Forkify WebApp from scratch and make some updates
 
 ### Links
 
-- Solution URL: [Github Repo here](https://github.com/gitEricsson/Bankist-WebApp)
-- Live Site URL: [Live site here](https://ericsson-bankist-webapp.netlify.app/)
+- Solution URL: [Github Repo here](https://github.com/gitEricsson/Forkify)
+- Live Site URL: [Live site here](https://ericsson-forkify.netlify.app/)
 
 ## My process
 
